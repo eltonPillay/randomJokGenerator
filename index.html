@@ -12,18 +12,24 @@
 </head>
 
 <body>
+    <h4 class="card-header">randomJokeGenerator</h5>
 
+    <div class="container">
+        <section class="mx-auto my-5" style="max-width: 23rem;">
 
-    <div class="card">
-        <h5 class="card-header">randomJokeGenerator</h5>
-        <div class="card-body">
-            <button id="genbut">Generate</button>
-            <p id="jokeq">Do you know where you can get chicken broth in bulk?</p>
-            <p id="jokea">The stock market.</p>
-        </div>
+            <div class="card testimonial-card mt-2 mb-3">
+                <div class="card-up aqua-gradient"></div>
+                <div class="avatar mx-auto white">
+                    <button type="button" id="genbut" class="btn btn-primary btn-lg">Generate</button>
+                </div>
+                <div class="card-body text-center">
+                    <p id="jokeq"></p>
+                    <p id="jokea"></p>
+                </div>
+            </div>
+
+        </section>
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="apps.js"></script>

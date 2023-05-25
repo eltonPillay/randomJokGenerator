@@ -3,10 +3,6 @@ const question = document.getElementById('jokeq');
 const answer = document.getElementById('jokea');
 
 
-
-
-
-
 but.addEventListener('click', async (event) => {
   event.preventDefault();
   try {
@@ -17,11 +13,3 @@ but.addEventListener('click', async (event) => {
     console.log("not working!!!")
   }
 });
-
-
-
-//console.log(joke.data.setup);
-//console.log(joke.data.punchline);
-
-
-
